@@ -126,10 +126,10 @@ jQuery(document).ready(function(){
         items : {
           // get rid of the remove item
           remove :{
-            visible : function (NODE, TREE_OBJ) { if(jQuery(NODE[0]).attr('rel')=="root") return false; return TREE_OBJ.check("renameable", NODE); },
+            visible : function (NODE, TREE_OBJ) { if(jQuery(NODE[0]).attr('rel')=="root") return false; return TREE_OBJ.check("renameable", NODE); }
           },
           rename :{
-            visible : function (NODE, TREE_OBJ) { if(jQuery(NODE[0]).attr('rel')=="root") return false; return TREE_OBJ.check("renameable", NODE); },
+            visible : function (NODE, TREE_OBJ) { if(jQuery(NODE[0]).attr('rel')=="root") return false; return TREE_OBJ.check("renameable", NODE); }
           },
           cut :{
               id      : "cut",
