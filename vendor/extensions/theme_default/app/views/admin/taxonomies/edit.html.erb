@@ -27,7 +27,7 @@
   <script type="text/javascript">
     var initial = [
 	   	{ attributes : 
-	   	  { "id" : "<%= @taxonomy.root.id %>" }, 
+	   	  { "id" : "<%= @taxonomy.root.id %>", "rel" : "root" }, 
 			data : "<%= @taxonomy.root.name %>",
 			state : "open",
 			children : [
